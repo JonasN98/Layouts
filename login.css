@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap');
+
+.insidec, .linec, .line2c{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.registerc, .havec{
+    margin-top: 50px;
+    font-size: 17px;
+    color: rgba(119, 119, 119, 1);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(229, 229, 229, 0.65);
+    cursor: pointer;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.registerc{
+    Width: 199px;
+    Height: 49px;
+    margin-right: 20px;
+}
+
+.havec{
+    Width: 199px;
+    Height: 49px;
+    background: #4AD395;
+    color: white;
+    font-weight: bold;
+}
+
+.emailc{
+    position:absolute;
+    left: 15px;
+    right: 15px;
+    top: 10px;
+    bottom: 10px;
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;
+    color: #777777;
+} 
+
+::placeholder{
+    color: rgba(220,220,220);
+    font-size: 16px;
+} 
+
+.inputc{
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.65);
+    box-sizing: border-box;
+    border: 1px solid rgba(119, 119, 119, 0.3);
+    Width: 418px;
+    Height: 49px;
+    padding-left: 50px;
+    font-size: 14px;
+}
+.inputc:hover{
+    border: 1px solid #4AD395;
+}
+
+.linec{
+    position: relative;
+    Width: 418px;
+    Height: 49px;
+}
+
+.linec input {
+    width: 100%;
+}
+
+.passwordc{
+    Width: 418px;
+    Height: 49px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.65);
+    border: 1px solid rgba(119, 119, 119, 0.3);
+    box-sizing: border-box;
+    padding-left: 50px;
+    font-size: 14px;
+}
+
+.passwordc:hover{
+    border: 1px solid #4AD395;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 1px solid #4AD395;
+}
+
+.line2c{
+    position: relative;
+    Width: 418px;
+    Height: 49px;
+}
+
+.line2c input {
+    width: 100%;
+}
+
+#padlock{
+    position:absolute;
+    top: 20px;
+    left: 15px;
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;
+    color: #777777;
+}
+
+#visibility{
+    position:absolute;
+    top: 20px;
+    right: 12px;
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;
+    color: #777777;
+    cursor: pointer;
+}
+
+#visibility:hover{
+    color: #4AD395;
+}
+
+.aa{
+    margin-right: -300px;
+    color: #4AD395;
+    text-decoration: none;
+}
+
+a{
+    color: #4AD395;
+    text-decoration: none;
+}
+
+.log-inc{
+    Width: 271px;
+    Height: 49px;
+    background: #4AD395;
+    border: 1px solid #4AD395;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 21px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.loading{
+    Width: 271px;
+    Height: 49px;
+    background: #4AD395;
+    border: 1px solid #4AD395;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.registerc:focus{
+    background: #4AD395;
+    color: white;
+    font-weight: bold;
+}
+
+/*.havec:focus{
+    background: #4AD395;
+    color: white;
+    font-weight: bold;
+}*/
+
+.h2c{
+    font-size: 11px;
+    color: #777777;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 549px){
+    .registerc, .havec{
+        Width: 140px;
+        Height: 40px;
+        font-size: 15px;
+    }
+
+    .havec{
+        margin-left: -22px;
+        border-radius: 0 6px 6px 0;
+    }
+    
+    .registerc{
+        border-radius: 5px 0 0 5px;
+    }
+
+    .linec, .line2c{
+        height: 30px;
+        width: 300px;
+    }
+    
+    .linec{
+        margin-top: 20px;
+    }
+
+    .line2c{
+        margin-bottom: 30px;
+    }
+
+    .aa{
+        margin-right: 0;
+    }
+
+    .log-inc, .loading{
+        height: 40px;
+        width: 200px;
+    }
+}
